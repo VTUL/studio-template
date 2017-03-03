@@ -2045,7 +2045,7 @@ you can add resource intensive styles.
     margin: auto;
     height: 100%;
     display: flex;
-    width: 25%; }
+    width: 175px; }
 
   .logo {
     margin: auto; }
@@ -2100,7 +2100,12 @@ This is for the larger monitors and possibly full screen viewers.
   You can add some advanced styles here if you like. This kicks in
   on larger screens.
   
-  ******************************************************************/ }
+  ******************************************************************/
+  .wrap {
+    width: 1260px; }
+
+  .logo-img-standard {
+    height: 400px; } }
 /*********************
 RETINA (2x RESOLUTION DEVICES)
 This applies to the retina iPhone (4s) and iPad (2,3) along with
