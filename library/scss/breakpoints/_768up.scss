@@ -308,7 +308,7 @@ mobile. Make sure to double check these!
 
 .nav li {
     margin: auto;
-    height: 100%;
+    height: 100px;
     display: flex;
     width: 175px;
 }
@@ -319,7 +319,6 @@ mobile. Make sure to double check these!
 
 .nav {
 	display: flex;
-  height: 100px;
   width: 100%;
 }
 
@@ -331,7 +330,7 @@ mobile. Make sure to double check these!
 }
 
 #inner-header {
-	height: 100px;
+	height: auto;
 	display: flex;
 }
 
