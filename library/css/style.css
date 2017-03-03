@@ -1754,7 +1754,7 @@ view.
 /* end .footer-links */
 .logo-img-standard {
   width: 100%;
-  padding: 0.5em; }
+  padding: 1rem; }
 
 .vt {
   position: inherit;
@@ -1763,10 +1763,12 @@ view.
   display: flex; }
 
 .vt a {
-  margin: auto; }
+  margin: auto;
+  padding-top: 1rem; }
 
 .ul a {
-  margin: auto; }
+  margin: auto;
+  padding-top: 1rem; }
 
 .ul {
   position: inherit;
@@ -2023,7 +2025,7 @@ you can add resource intensive styles.
 
   /* end .footer-links */
   .logo-img-standard {
-    height: 190px; }
+    height: 275px; }
 
   .vt {
     position: absolute;
@@ -2220,7 +2222,6 @@ be set to display none.
   background-size: 100%; }
 
 .banner-standard {
-  height: 275px;
   margin: auto;
   margin-right: 0;
   display: flex;
