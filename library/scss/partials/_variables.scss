@@ -1,0 +1,59 @@
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Variables
+
+Here is where we declare all our variables like colors, fonts,
+base values, and defaults. We want to make sure this file ONLY
+contains variables that way our files don't get all messy.
+No one likes a mess.
+
+******************************************************************/
+
+/*********************
+COLORS
+Need help w/ choosing your colors? Try this site out:
+http://0to255.com/
+*********************/
+
+// Brandkit colors
+$primary:	    			#991a3e;
+$secondary:				 	#6cbec3;
+$tertiary: 	  			#991a3e;
+$black:		   	   		#242322;
+$white:    					#FFFFFF;
+$gray:              #979797;
+
+$font:              "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+$page-bg:           $white;
+$text-color:        $black;
+
+$link-color:        $primary;
+$link-hover:        lighten($primary, 10%);
+$link-active:       darken($primary, 10%);
+
+$menu-link:         $white;
+$menu-link-hover:   darken($white, 10%);
+$menu-link-active:  lighten($primary, 10%);
+
+$menu-bg:           $primary;
+$menu-bg-hover:     lighten($primary, 10%);
+$menu-bg-active:    darken($primary, 10%);
+
+$border-color:      $black;
+$disabled-gray:     $gray;
+
+$banner-overlay:    rgba(255,255,255,0.9)
+
+$alert-yellow:      #ebe16f;
+$alert-red:         #fbe3e4;
+$alert-green:       #e6efc2;
+$alert-blue:        #d5edf8;
+
+/*
+Here's a great tutorial on how to
+use color variables properly:
+http://sachagreif.com/sass-color-variables/
+*/
