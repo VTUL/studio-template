@@ -267,7 +267,7 @@ NAVIGATION STYLES
   /* highlight current page */
   /* end current highlighters */ }
   .nav ul {
-    background: #991a3e;
+    background: #152452;
     margin-top: 0; }
   .nav li {
     float: left;
@@ -397,7 +397,7 @@ mobile. Make sure to double check these!
   width: 100%; }
 
 .banner-inner {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0);
   height: 100%;
   width: 100%;
   display: flex; }
