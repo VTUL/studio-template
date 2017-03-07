@@ -22,6 +22,7 @@ body {
 	color: $text-color;
   	-webkit-font-smoothing: antialiased;
   	-moz-osx-font-smoothing: grayscale;
+  background-color: $page-bg;
 }
 
 /********************
@@ -261,7 +262,7 @@ POSTS & CONTENT STYLES
 			//border: 1px solid $border-color;
 
 			header {
-				border-bottom: 1px solid $border-color;
+				border-bottom: 1px solid lighten($border-color, 80%);
 				padding: 1.5em;
 			}
 
