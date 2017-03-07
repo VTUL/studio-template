@@ -2231,7 +2231,8 @@ be set to display none.
   margin-right: 0;
   display: flex;
   background: url("../images/bg.svg") center center fixed;
-  background-size: 100%; }
+  background-size: 100%;
+  background-color: #FFFFFF; }
 
 .page-title-standard {
   margin: auto;
