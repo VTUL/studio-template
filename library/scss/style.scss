@@ -219,3 +219,21 @@ h1 {
 	color: #000;
 	margin-top: 0;
 }
+
+.accordion > .su-spoiler-style-fancy > .su-spoiler-title {
+  border-radius: 0;
+  background-color: $accordian-header;
+  color: $accordian-font-header;
+}
+
+.accordion > .su-spoiler-style-fancy {
+  border: 0;
+}
+
+.accordion > .su-spoiler-style-fancy > .su-spoiler-content {
+  font-family: $accordian-font;
+    font-size: 100%;
+    line-height: 1.5;
+    color: $accordian-font-color;
+    -webkit-font-smoothing: antialiased;
+}

@@ -2279,3 +2279,18 @@ nav a {
 h1 {
   color: #000;
   margin-top: 0; }
+
+.accordion > .su-spoiler-style-fancy > .su-spoiler-title {
+  border-radius: 0;
+  background-color: #6cbec3;
+  color: #FFFFFF; }
+
+.accordion > .su-spoiler-style-fancy {
+  border: 0; }
+
+.accordion > .su-spoiler-style-fancy > .su-spoiler-content {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  line-height: 1.5;
+  color: #242322;
+  -webkit-font-smoothing: antialiased; }
