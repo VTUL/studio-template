@@ -18,8 +18,6 @@
 
                 <header class="article-header entry-header">
 
-                  <a href="<?php echo home_url(); ?>" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/library/images/logo.svg" alt="Fusion Studios Logo" class="logo-float logo-float-post"></a>
-
                   <h1 class="entry-title single-title" itemprop="headline" rel="bookmark"><?php the_title(); ?></h1>
 
                   <p class="byline entry-meta vcard">
@@ -61,13 +59,7 @@
                   ?>
                 </section> <?php // end article section ?>
 
-                <footer class="article-footer">
-
-                  <?php printf( __( 'filed under', 'bonestheme' ).': %1$s', get_the_category_list(', ') ); ?>
-
-                  <?php the_tags( '<p class="tags"><span class="tags-title">' . __( 'Tags:', 'bonestheme' ) . '</span> ', ', ', '</p>' ); ?>
-
-                </footer> <?php // end article footer ?>
+               <?php // end article footer ?>
 
                 <?php //comments_template(); ?>
 
