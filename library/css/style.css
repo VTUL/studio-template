@@ -1384,6 +1384,7 @@ and more scalable.
   /* highlight current page */
   /* end current highlighters */ }
   .nav li {
+    text-align: center;
     /*
     so you really have to rethink your dropdowns for mobile.
     you don't want to have it expand too much because the
@@ -2268,7 +2269,8 @@ be set to display none.
   display: -ms-flexbox;
   display: flex;
   background: url("../images/bg.svg") center center fixed;
-  background-size: 100%; }
+  background-size: 100%;
+  background-color: #FFFFFF; }
 
 .page-title-standard {
   margin: auto;

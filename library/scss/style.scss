@@ -159,6 +159,7 @@ be set to display none.
   display: flex;
   background: url("../images/bg.svg") center center fixed;
   background-size: 100%;
+  background-color: $banner-bg-color;
 }
 
 .page-title-standard {
