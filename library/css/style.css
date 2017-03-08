@@ -78,7 +78,7 @@ html {
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
-  -webkit-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%
   /* 2 */ }
 
 /**
@@ -146,7 +146,6 @@ em,
  * Address differences between Firefox and other browsers.
  */
 hr {
-  -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0; }
 
@@ -157,7 +156,8 @@ p {
   -webkit-hyphens: auto;
   -epub-hyphens: auto;
   -moz-hyphens: auto;
-  hyphens: auto; }
+  -ms-hyphens: auto;
+      hyphens: auto; }
 
 /*
  * Addresses margins set differently in IE6/7.
@@ -290,7 +290,7 @@ fieldset {
 legend {
   border: 0;
   /* 1 */
-  padding: 0;
+  padding: 0
   /* 2 */ }
 
 /**
@@ -306,7 +306,7 @@ textarea {
   /* 1 */
   font-size: 100%;
   /* 2 */
-  margin: 0;
+  margin: 0
   /* 3 */ }
 
 /**
@@ -340,7 +340,7 @@ input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
-  cursor: pointer;
+  cursor: pointer
   /* 3 */ }
 
 /**
@@ -358,7 +358,7 @@ input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
   /* 1 */
-  padding: 0;
+  padding: 0
   /* 2 */ }
 
 /**
@@ -369,8 +369,6 @@ input[type="radio"] {
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
   /* 2 */
   box-sizing: content-box; }
 
@@ -397,7 +395,7 @@ input::-moz-focus-inner {
 textarea {
   overflow: auto;
   /* 1 */
-  vertical-align: top;
+  vertical-align: top
   /* 2 */ }
 
 /* ==========================================================================
@@ -411,8 +409,6 @@ table {
   border-spacing: 0; }
 
 * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
 .image-replacement,
@@ -515,14 +511,14 @@ p {
   word-wrap: break-word;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
-  hyphens: auto;
+  -ms-hyphens: auto;
+      hyphens: auto;
   -webkit-hyphenate-before: 2;
   -webkit-hyphenate-after: 3;
   hyphenate-lines: 3;
   -webkit-font-feature-settings: "liga", "dlig";
   -moz-font-feature-settings: "liga=1, dlig=1";
   -ms-font-feature-settings: "liga", "dlig";
-  -o-font-feature-settings: "liga", "dlig";
   font-feature-settings: "liga", "dlig"; }
 
 /******************************************************************
@@ -1308,7 +1304,7 @@ LAYOUT & GRID STYLES
 LINK STYLES
 *********************/
 a, a:visited {
-  color: #00425A;
+  color: #00425A
   /* on hover */
   /* on click */
   /* mobile tap color */ }
@@ -1329,7 +1325,7 @@ H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   text-rendering: optimizelegibility;
-  font-weight: 500;
+  font-weight: 500
   /*
   if you're going to use webfonts, be sure to check your weights
   http://css-tricks.com/watch-your-font-weight/
@@ -1383,12 +1379,12 @@ and more scalable.
 */
 .nav {
   border-bottom: 0;
-  margin: 0;
+  margin: 0
   /* end .menu li */
   /* highlight current page */
   /* end current highlighters */ }
   .nav li {
-    text-align: center;
+    text-align: center
     /*
     so you really have to rethink your dropdowns for mobile.
     you don't want to have it expand too much because the
@@ -1400,7 +1396,7 @@ and more scalable.
       display: block;
       color: #FFFFFF;
       text-decoration: none;
-      padding: 0.75em;
+      padding: 0.75em
       /*
       remember this is for mobile ONLY, so there's no need
       to even declare hover styles here, you can do it in
@@ -1454,7 +1450,7 @@ POSTS & CONTENT STYLES
 
 /* entry content */
 .entry-content {
-  padding: 1.5em 1.5em 0;
+  padding: 1.5em 1.5em 0
   /*
   image alignment on a screen this size may be
   a bit difficult. It's set to start aligning
@@ -1522,7 +1518,7 @@ POSTS & CONTENT STYLES
 .wp-caption {
   max-width: 100%;
   background: #FFFFFF;
-  padding: 5px;
+  padding: 5px
   /* images inside wp-caption */ }
   .wp-caption img {
     max-width: 100%;
@@ -1599,7 +1595,7 @@ COMMENT STYLES
 #comments-title {
   padding: 0.75em;
   margin: 0;
-  border-top: 1px solid #979797;
+  border-top: 1px solid #979797
   /* number of comments span */ }
 
 .commentlist {
@@ -1611,7 +1607,7 @@ COMMENT STYLES
   clear: both;
   overflow: hidden;
   padding: 1.5em;
-  border-bottom: 1px solid #979797;
+  border-bottom: 1px solid #979797
   /* vcard */
   /* end .commentlist .vcard */
   /* end children */
@@ -1640,7 +1636,7 @@ COMMENT STYLES
   .comment:last-child {
     margin-bottom: 0; }
   .comment .children {
-    margin: 0;
+    margin: 0
     /* variations */
     /* change number for different depth */ }
   .comment[class*=depth-] {
@@ -1762,6 +1758,9 @@ view.
   position: inherit;
   margin: auto;
   width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex; }
 
 .vt a {
@@ -1776,11 +1775,17 @@ view.
   position: inherit;
   margin: auto;
   width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex; }
 
 .nav li {
   margin: auto;
   height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   width: 100%; }
 
@@ -1789,19 +1794,32 @@ view.
   width: 100%; }
 
 .nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
-  flex-wrap: wrap; }
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
 
 .banner-inner {
   background-color: rgba(255, 255, 255, 0.9);
   height: 100%;
   width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap; }
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
 
 #inner-header {
   height: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex; }
 
 #sidebar1 {
@@ -1922,7 +1940,7 @@ you can add resource intensive styles.
   NAVIGATION STYLES
   *********************/
   .nav {
-    border: 0;
+    border: 0
     /* end .menu ul li */
     /* highlight current page */
     /* end current highlighters */ }
@@ -1931,13 +1949,13 @@ you can add resource intensive styles.
       margin-top: 0; }
     .nav li {
       float: left;
-      position: relative;
+      position: relative
       /*
       plan your menus and drop-downs wisely.
       */
       /* showing sub-menus */ }
       .nav li a {
-        border-bottom: 0;
+        border-bottom: 0
         /*
         you can use hover styles here even though this size
         has the possibility of being a mobile device.
@@ -1951,7 +1969,7 @@ you can add resource intensive styles.
         border-top: 0;
         position: absolute;
         visibility: hidden;
-        z-index: 8999;
+        z-index: 8999
         /* highlight sub-menu current page */ }
         .nav li ul.sub-menu li,
         .nav li ul.children li {
@@ -1993,7 +2011,7 @@ you can add resource intensive styles.
     padding: 0 10px;
     margin: 2.2em 0; }
     .widget ul li {
-      margin-bottom: 0.75em;
+      margin-bottom: 0.75em
       /* deep nesting */ }
       .widget ul li ul {
         margin-top: 0.75em;
@@ -2046,6 +2064,9 @@ you can add resource intensive styles.
   .nav li {
     margin: auto;
     height: 100px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     width: 200px; }
 
@@ -2053,6 +2074,9 @@ you can add resource intensive styles.
     margin: auto; }
 
   .nav {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     width: 100%; }
 
@@ -2060,10 +2084,16 @@ you can add resource intensive styles.
     background-color: rgba(255, 255, 255, 0.9);
     height: 100%;
     width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex; }
 
   #inner-header {
     height: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex; }
 
   #sidebar1 {
@@ -2176,7 +2206,8 @@ be set to display none.
     background: transparent !important;
     color: black !important;
     text-shadow: none !important;
-    filter: none !important;
+    -webkit-filter: none !important;
+            filter: none !important;
     -ms-filter: none !important; }
 
   a, a:visited {
@@ -2223,6 +2254,9 @@ be set to display none.
     display: none; } }
 .banner {
   width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   background: url("../images/bg.svg") center center fixed;
   background-size: 100%; }
@@ -2230,6 +2264,9 @@ be set to display none.
 .banner-standard {
   margin: auto;
   margin-right: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   background: url("../images/bg.svg") center center fixed;
   background-size: 100%;
@@ -2240,8 +2277,14 @@ be set to display none.
   margin-left: 0; }
 
 .article-header-standard {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between; }
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
 
 .logo-svg-small {
   height: 100px;
