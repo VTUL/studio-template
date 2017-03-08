@@ -1251,7 +1251,8 @@ body {
   line-height: 1.5;
   color: #242322;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FFFFFF; }
 
 /********************
 WORDPRESS BODY CLASSES
@@ -1417,7 +1418,7 @@ POSTS & CONTENT STYLES
   border-radius: 3px;
   margin-bottom: 1.5em; }
   .hentry header {
-    border-bottom: 1px solid #242322;
+    border-bottom: 1px solid #efefef;
     padding: 1.5em; }
   .hentry footer {
     padding: 1.5em;
@@ -2066,7 +2067,7 @@ you can add resource intensive styles.
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 175px; }
+    width: 200px; }
 
   .logo {
     margin: auto; }

@@ -4,7 +4,7 @@
 
 				<div id="inner-content" class="wrap cf">
 
-						<main id="main" class="m-all t-3of3 d-7of7 cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
+						<main id="main" class="m-all t-2of3 d-5of7 cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
 							
 							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
@@ -12,7 +12,6 @@
 
 								<header class="entry-header article-header">
 
-								<a href="<?php echo home_url(); ?>" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/library/images/logo.svg" alt="Studio Logo" class="logo-float"></a>
 
 									<h3 class="h2 entry-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
 									<p class="byline entry-meta vcard">
@@ -33,10 +32,6 @@
 									<?php the_excerpt(); ?>
 
 								</section>
-
-								<footer class="article-footer">
-
-								</footer>
 
 							</article>
 
@@ -61,6 +56,8 @@
 							<?php endif; ?>
 
 						</main>
+
+						<?php get_sidebar(); ?>
 
 				</div>
 
