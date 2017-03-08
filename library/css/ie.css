@@ -267,7 +267,7 @@ NAVIGATION STYLES
   /* highlight current page */
   /* end current highlighters */ }
   .nav ul {
-    background: #991a3e;
+    background: #00425A;
     margin-top: 0; }
   .nav li {
     float: left;
@@ -287,7 +287,7 @@ NAVIGATION STYLES
     .nav li ul.sub-menu,
     .nav li ul.children {
       margin-top: 0;
-      border: 1px solid #242322;
+      border: 1px solid #353837;
       border-top: 0;
       position: absolute;
       visibility: hidden;
@@ -306,7 +306,7 @@ NAVIGATION STYLES
           border-right: 0;
           display: block;
           width: 180px;
-          border-bottom: 1px solid #242322; }
+          border-bottom: 1px solid #353837; }
         .nav li ul.sub-menu li:last-child a,
         .nav li ul.children li:last-child a {
           border-bottom: 0; }
@@ -326,7 +326,7 @@ SIDEBARS & ASIDES
   margin-top: 0; }
 
 .widgettitle {
-  border-bottom: 2px solid #242322;
+  border-bottom: 2px solid #353837;
   margin-bottom: 0.75em; }
 
 .widget {
