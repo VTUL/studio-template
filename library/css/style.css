@@ -1423,11 +1423,7 @@ POSTS & CONTENT STYLES
   border-radius: 3px;
   margin-bottom: 1.5em; }
   .hentry header {
-<<<<<<< HEAD
-    border-bottom: 1px solid #efefef;
-=======
-    border-bottom: 1px solid #353837;
->>>>>>> 0548e239945052357462837a5edbcaccd6d14dcb
+    border-bottom: 1px solid white;
     padding: 1.5em; }
   .hentry footer {
     padding: 1.5em;
