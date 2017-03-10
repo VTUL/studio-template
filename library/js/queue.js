@@ -11,6 +11,9 @@ jQuery.fn.center = function () {
 }
 
 function queue () {
+  jQuery('#sidebar1').remove()
+  jQuery('.wrap').css('width', '90%')
+  jQuery('#main').css('width', '100%')
   getData()
 }
 
@@ -30,7 +33,7 @@ function getData () {
 }
 
 function createStructure () {
-  jQuery('#queue').html(JSON.stringify(queueData))
+  getTable()
   setStates()
 }
 
@@ -339,7 +342,7 @@ function getTable () {
     url: url + '/?by=id&order=asc',
     cache: false,
     beforeSend: function () {
-      jQuery('.mdl-spinner').center().show()
+     jQuery('.mdl-spinner').center().show()
     }
   })
         .done(function (data) {
