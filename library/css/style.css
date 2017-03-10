@@ -2340,3 +2340,13 @@ h1 {
 
 .entry-content tr:nth-child(even) {
   background-color: #cacaca; }
+
+#queue h4 {
+  display: inline-block; }
+
+.show-queue, .hide-queue {
+  color: #00425A; }
+
+.show-queue:hover, .hide-queue:hover {
+  cursor: pointer;
+  color: #00678d; }

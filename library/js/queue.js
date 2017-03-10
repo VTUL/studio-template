@@ -86,6 +86,66 @@ function setStates () {
     jQuery('.overlay-warning').hide()
     jQuery('.warning-card-wide').hide()
   })
+
+  jQuery('#show-normal').click(function () {
+    jQuery('.normal-queue').slideDown()
+    jQuery('#show-normal').hide()
+    jQuery('#hide-normal').show()
+  })
+
+  jQuery('#hide-normal').click(function () {
+    jQuery('.normal-queue').slideUp()
+    jQuery('#show-normal').show()
+    jQuery('#hide-normal').hide()
+  })
+
+  jQuery('#show-special').click(function () {
+    jQuery('.special-requests-queue').slideDown()
+    jQuery('#show-special').hide()
+    jQuery('#hide-special').show()
+  })
+
+  jQuery('#hide-special').click(function () {
+    jQuery('.special-requests-queue').slideUp()
+    jQuery('#show-special').show()
+    jQuery('#hide-special').hide()
+  })
+
+  jQuery('#show-current').click(function () {
+    jQuery('.current-queue').slideDown()
+    jQuery('#show-current').hide()
+    jQuery('#hide-current').show()
+  })
+
+  jQuery('#hide-current').click(function () {
+    jQuery('.current-queue').slideUp()
+    jQuery('#show-current').show()
+    jQuery('#hide-current').hide()
+  })
+
+  jQuery('#show-finished').click(function () {
+    jQuery('.finished-queue').slideDown()
+    jQuery('#show-finished').hide()
+    jQuery('#hide-finished').show()
+  })
+
+  jQuery('#hide-finished').click(function () {
+    jQuery('.finished-queue').slideUp()
+    jQuery('#show-finished').show()
+    jQuery('#hide-finished').hide()
+  })
+
+  jQuery('#show-failed').click(function () {
+    jQuery('.failed-queue').slideDown()
+    jQuery('#show-failed').hide()
+    jQuery('#hide-failed').show()
+  })
+
+  jQuery('#hide-failed').click(function () {
+    jQuery('.failed-queue').slideUp()
+    jQuery('#show-failed').show()
+    jQuery('#hide-failed').hide()
+  })
 }
 
 function checkUser () {
@@ -342,7 +402,7 @@ function getTable () {
     url: url + '/?by=id&order=asc',
     cache: false,
     beforeSend: function () {
-     jQuery('.mdl-spinner').center().show()
+      jQuery('.mdl-spinner').center().show()
     }
   })
         .done(function (data) {
