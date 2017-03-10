@@ -219,3 +219,24 @@ h1 {
 	color: #000;
 	margin-top: 0;
 }
+
+.table-container {
+	width: 49%;
+	margin: auto;
+}
+
+.table-title {
+	display: flex;
+}
+
+#queue {
+
+}
+
+.data-table {
+
+}
+
+.entry-content tr:nth-child(even) {
+    background-color: $table-bg-gray;
+}

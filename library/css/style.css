@@ -2323,3 +2323,16 @@ nav a {
 h1 {
   color: #000;
   margin-top: 0; }
+
+.table-container {
+  width: 49%;
+  margin: auto; }
+
+.table-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.entry-content tr:nth-child(even) {
+  background-color: white; }
