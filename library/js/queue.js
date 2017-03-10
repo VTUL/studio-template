@@ -30,7 +30,7 @@ function getData () {
 }
 
 function createStructure () {
-  jQuery('#queue').html(queueData)
+  jQuery('#queue').html(JSON.stringify(queueData))
   setStates()
 }
 
