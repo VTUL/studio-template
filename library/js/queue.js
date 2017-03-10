@@ -11,7 +11,7 @@ jQuery.fn.center = function () {
 }
 
 function queue () {
-  jQuery('#sidebar1').remove()
+  jQuery('#sidebar1').hide()
   jQuery('.wrap').css('width', '90%')
   jQuery('#main').css('width', '100%')
   getData()
@@ -146,6 +146,12 @@ function setStates () {
     jQuery('#show-failed').show()
     jQuery('#hide-failed').hide()
   })
+
+  jQuery('#show-normal').hide()
+  jQuery('#show-special').hide()
+  jQuery('#show-current').hide()
+  jQuery('#show-finshed').hide()
+  jQuery('#show-failed').hide()
 }
 
 function checkUser () {
