@@ -2326,13 +2326,17 @@ h1 {
 
 .table-container {
   width: 49%;
-  margin: auto; }
+  margin: auto;
+  margin-top: 0px; }
 
-.table-title {
+#queue {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
 
 .entry-content tr:nth-child(even) {
-  background-color: white; }
+  background-color: #cacaca; }

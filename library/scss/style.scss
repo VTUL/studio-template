@@ -223,14 +223,16 @@ h1 {
 .table-container {
 	width: 49%;
 	margin: auto;
+	margin-top: 0px;
 }
 
 .table-title {
-	display: flex;
+	
 }
 
 #queue {
-
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .data-table {
