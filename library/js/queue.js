@@ -19,7 +19,7 @@ function queue () {
 
 function getData () {
   jQuery.ajax({
-    url: url,
+    url: url + '/?by=id&order=asc',
     cache: false,
     beforeSend: function () {
       jQuery('.mdl-spinner').center().show()
