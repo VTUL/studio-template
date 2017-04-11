@@ -1304,14 +1304,14 @@ LAYOUT & GRID STYLES
 LINK STYLES
 *********************/
 a, a:visited {
-  color: #991a3e
+  color: #952557
   /* on hover */
   /* on click */
   /* mobile tap color */ }
   a:hover, a:focus, a:visited:hover, a:visited:focus {
-    color: #c52150; }
+    color: #be2f6f; }
   a:active, a:visited:active {
-    color: #6d132c; }
+    color: #6c1b3f; }
   a:link, a:visited:link {
     /*
     this highlights links on iPhones/iPads.
@@ -1360,7 +1360,7 @@ h5, .h5 {
 HEADER STYLES
 *********************/
 .header {
-  background-color: #991a3e; }
+  background-color: #952557; }
 
 #logo {
   margin: 0.75em 0; }
@@ -1945,7 +1945,7 @@ you can add resource intensive styles.
     /* highlight current page */
     /* end current highlighters */ }
     .nav ul {
-      background: #991a3e;
+      background: #952557;
       margin-top: 0; }
     .nav li {
       float: left;
@@ -2303,7 +2303,7 @@ be set to display none.
   color: #FFFFFF; }
 
 .nav li:hover, .nav li a:hover {
-  background-color: #c52150;
+  background-color: #be2f6f;
   cursor: pointer;
   color: #e6e6e6; }
 
