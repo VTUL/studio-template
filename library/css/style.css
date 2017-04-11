@@ -929,11 +929,11 @@ You can use this example if you want. Just replace all the variables
 and it will create a button dependant on those variables.
 */
 .blue-btn, .comment-reply-link, #submit {
-  background-color: #357CB2; }
+  background-color: #6cbec3; }
   .blue-btn:hover, .comment-reply-link:hover, #submit:hover, .blue-btn:focus, .comment-reply-link:focus, #submit:focus {
-    background-color: #3071a2; }
+    background-color: #5eb8bd; }
   .blue-btn:active, .comment-reply-link:active, #submit:active {
-    background-color: #2f6e9e; }
+    background-color: #5ab6bc; }
 
 /******************************************************************
 Site Name:
@@ -1304,14 +1304,14 @@ LAYOUT & GRID STYLES
 LINK STYLES
 *********************/
 a, a:visited {
-  color: #152452
+  color: #991a3e
   /* on hover */
   /* on click */
   /* mobile tap color */ }
   a:hover, a:focus, a:visited:hover, a:visited:focus {
-    color: #1f367b; }
+    color: #c52150; }
   a:active, a:visited:active {
-    color: #0b1229; }
+    color: #6d132c; }
   a:link, a:visited:link {
     /*
     this highlights links on iPhones/iPads.
@@ -1360,7 +1360,7 @@ h5, .h5 {
 HEADER STYLES
 *********************/
 .header {
-  background-color: #152452; }
+  background-color: #991a3e; }
 
 #logo {
   margin: 0.75em 0; }
@@ -1945,7 +1945,7 @@ you can add resource intensive styles.
     /* highlight current page */
     /* end current highlighters */ }
     .nav ul {
-      background: #152452;
+      background: #991a3e;
       margin-top: 0; }
     .nav li {
       float: left;
@@ -2303,7 +2303,7 @@ be set to display none.
   color: #FFFFFF; }
 
 .nav li:hover, .nav li a:hover {
-  background-color: #357CB2;
+  background-color: #6cbec3;
   cursor: pointer;
   color: #e6e6e6; }
 
