@@ -39,8 +39,8 @@ $menu-link-hover:   darken($white, 10%);
 $menu-link-active:  $white;
 
 $menu-bg:           $primary;
-$menu-bg-hover:     $secondary;
-$menu-bg-active:    darken($secondary, 10%);
+$menu-bg-hover:     lighten($primary, 10%);
+$menu-bg-active:    darken($primary, 10%);
 
 $border-color:      $black;
 $disabled-gray:     $gray;
